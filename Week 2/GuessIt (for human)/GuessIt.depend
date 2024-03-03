@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1709454440 source:c:\users\lehuy\onedrive - vnu.edu.vn\university\semester ii\ltnc\bt weeks\week 2\guessit\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	"graphics.h"
+	<ctime>
+
+1709451496 c:\users\lehuy\onedrive - vnu.edu.vn\university\semester ii\ltnc\bt weeks\week 2\guessit\defs.h
+
+1708940050 c:\users\lehuy\onedrive - vnu.edu.vn\university\semester ii\ltnc\bt weeks\week 2\guessit\graphics.h
+
+1709455180 source:c:\users\lehuy\onedrive - vnu.edu.vn\university\semester ii\ltnc\bt weeks\week 2\guessit (for human)\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	"graphics.h"
+	<ctime>
+
+1709451496 c:\users\lehuy\onedrive - vnu.edu.vn\university\semester ii\ltnc\bt weeks\week 2\guessit (for human)\defs.h
+
+1708940050 c:\users\lehuy\onedrive - vnu.edu.vn\university\semester ii\ltnc\bt weeks\week 2\guessit (for human)\graphics.h
+
