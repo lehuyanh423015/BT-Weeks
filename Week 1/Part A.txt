@@ -1,0 +1,52 @@
+câu 1:	lệnh trên đang kiểm tra xem biến grape có nằm tra xem biến
+	grape có nằm trong khoảng từ 90 đến 100 hay không.
+	dòng lệnh có chứa lỗi cú pháp
+	sửa lỗi: bool isA = (grade >= 90) && (grade <= 100);
+
+câu 2:	đoạn chương trình in ra số 0
+
+câu 3:	biến x có kiểu dữ liệu int, nên phép nhân sẽ trả về kiểu int
+	nhưng biến y lại có kiểu long nên không hiện ra kết quả mong
+	muốn. khi đó ta phải ép kiểu dữ liệu của x để nhận đc kết quả
+	VD: long y = (long) (x) * x;
+	    cout << y;
+
+câu 4:	biểu thức trên trả về một giá trị bool = false
+	ta sqrt(2) là một số vô tỉ, nên kết quả sẽ có độ chính xác 
+	khác nhau dựa vào kiểu dữ liệu, nên biểu thức trên sai
+
+câu 5:	chương trình sẽ dừng lại và thông báo xảy ra lỗi runtime
+	có tên là (division by zero error).
+
+câu 6:	khi hàm main có chứa int a = 27 * "three", chương trình sẽ thông
+	báo lỗi biên dịch;
+	đối với chương trình chứa double x trong hàm main, khi chạy sẽ
+	xảy ra lỗi vì x là biến cục bộ và chưa được khởi tạo, còn nếu
+	chuyển ra ngoài main thì x  sẽ thành biến toàn cục và mặc định
+	được khởi tạo giá trị x = 0;
+
+câu 7:	đoạn code sẽ cho output sau:
+	0
+	0.75
+	0.75
+	0.75
+
+câu 8:	chương trình sẽ xảy ra lỗi "conflicing declaration";
+
+câu 9:	khi ở trong khối lệnh con, định dạng arg1 chỉ tới biến char arg1
+	vì nó là biến cục bộ bên trong {...}, nên sẽ in ra A;
+
+câu 10:	khi ra khỏi khối lệnh con, định dạng arg1 chỉ tới biến int arg1
+	nên sẽ in ra ra  -1
+
+câu 11:	lệnh trên sai vì trong phép (5 / 9), đây là phép chia giữa hai
+	số nguyên nên kết quả sẽ trả về số nguyên = 0, nên không đưa ra
+	được kết quả mong muốn, ta cần sửa lại để kết quả trả về số thực
+	VD: double C = (F - 32) * (5.0 / 9.0)
+
+câu 12:	đoạn code trên sẽ in ra "Here" vì dòng lệnh
+	{
+		cout << "Here";
+	}
+	không nằm trong cấu trúc  điều kiện If...else do sau else đã có
+	kí tự " ; "
